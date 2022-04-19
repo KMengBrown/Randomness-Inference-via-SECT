@@ -1,6 +1,7 @@
 ###############################################################
 ###############################################################
-###         Simulation Study I: without Permutation         ### 
+###     Simulation Study I: simulations for Algorithm 1     ### 
+###              (chisq-based, no permutation)              ###  
 ###############################################################
 ###############################################################
 
@@ -18,11 +19,9 @@ library("Matrix")
 library("vegan")
 #install.packages("plot3D")
 library("plot3D")
-#url <- "https://cran.r-project.org/src/contrib/Archive/TDA/TDA_1.8.5.tar.gz"
-#pkgFile <- "TDA_1.8.5.tar.gz"
-#download.file(url = url, destfile = pkgFile)
+#install.packages("TDA")
 library("TDA")
-#install.packages("Rcpp", version="1.0.7")
+#install.packages("Rcpp")
 library("Rcpp")
 #install.packages("plotrix")
 library("plotrix")
@@ -347,7 +346,4 @@ for (studies in 1:number_studies) {
 ###############################################################
 
 mean(p_value_seq<0.05)
-
-
-
 
