@@ -16,7 +16,7 @@ In addition to this "README" file, there are four files in this repository.
 Details of these simulation studies are available in Section 5 of MCE. 
 
 
-Kun Meng, Ph.D.//
-(Michael)
-Department of Biostatistics, 
+Kun Meng, Ph.D. \
+(Michael) \
+Department of Biostatistics, \
 Brown University
