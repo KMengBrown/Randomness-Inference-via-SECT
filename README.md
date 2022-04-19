@@ -10,7 +10,7 @@ XXX (TO BE POSTED)
 
 In addition to this "README" file, there are two files in this repository.
 
-1. "Simulations_I_without_permutation.R": This file provides the source code of the simulation studies showing the performance of Algorithm 1 proposed in MCE. $\chi^2$
+1. "Simulations_I_without_permutation.R": This file provides the source code of the simulation studies showing the performance of Algorithm 1 proposed in MCE. 
 2. "Simulations_II_with_permutation_test.R": This file provides the source code of the simulation studies showing the performance of Algorithm 2 proposed in MCE. 
 
 Details of these simulation studies are available in Section 5 of MCE. 
