@@ -1,6 +1,7 @@
 ###############################################################
 ###############################################################
-###     Simulation Study II: with the Permutation Test      ### 
+###    Simulation Study II: simulations for Algorithm 2     ### 
+###                   (Permutation-based)                   ###  
 ###############################################################
 ###############################################################
 
@@ -17,11 +18,9 @@ library("Matrix")
 library("vegan")
 #install.packages("plot3D")
 library("plot3D")
-#url <- "https://cran.r-project.org/src/contrib/Archive/TDA/TDA_1.8.5.tar.gz"
-#pkgFile <- "TDA_1.8.5.tar.gz"
-#download.file(url = url, destfile = pkgFile)
+#install.packages("TDA")
 library("TDA")
-#install.packages("Rcpp", version="1.0.7")
+#install.packages("Rcpp")
 library("Rcpp")
 #install.packages("plotrix")
 library("plotrix")
@@ -50,17 +49,11 @@ radius_variance=0.05
 # Number of simulation studies
 number_studies=50
 # The parameter determining the distribution P^{(epsilon)}
-epsilon=0.0125
-
-# epsilon = 0   ---> rejection rate 3/50
-# epsilon = 0.025   ---> 22/100
-# epsilon = 0.0375  ---> 23/50
-
-
-I=100
-
+epsilon=0.05
 # Expected type-one error rate
 alpha_type_one_er=0.05
+
+I=100
 
 
 
@@ -444,5 +437,4 @@ for(studies in 1:number_studies){
 
 
 mean(rejection_indicators)
-
 
