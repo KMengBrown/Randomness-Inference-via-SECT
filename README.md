@@ -2,7 +2,8 @@
 
 * Description: This repository is devoted to the simulation studies showing the performance of the Algorithms 1 and 2 proposed in the following paper by Kun Meng, Lorin Crawford, and Ani Eloyan (hereafter MCE).
 
-XXX (TO BE POSTED)
+Kun Meng, Lorin Crawford, and Ani Eloyan, \textit{Randomness and Statistical Inference of Shapes via the Smooth Euler
+ Characteristic Transform}
 
 * Depends R 
 
